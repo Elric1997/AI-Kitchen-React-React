@@ -11,8 +11,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>AI-Kitchen-React</title>
-        <meta property="og:title" content="AI-Kitchen-React" />
+        <title>AI-Kitchen</title>
+        <meta property="og:title" content="AI-Kitchen" />
       </Helmet>
       <header data-role="Accordion" className="home-header">
         <img
