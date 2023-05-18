@@ -15,11 +15,7 @@ const Home = (props) => {
         <meta property="og:title" content="AI-Kitchen" />
       </Helmet>
       <header data-role="Accordion" className="home-header">
-        <img
-          alt="logo"
-          src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-          className="home-image"
-        />
+        <h1>AI Kitchen</h1>
         <div className="home-separator"></div>
         <nav className="home-nav">
           <NavigationLinks rootClassName="rootClassName19"></NavigationLinks>
@@ -36,15 +32,22 @@ const Home = (props) => {
         </div>
       </header>
       <div className="home-hero">
-        <span className="home-text">AI Kitchen</span>
-        <h1 className="home-text01">Schmecken Sie den Unterschied mit KI</h1>
+        <span className="home-text01">AI Kitchen</span>
+        <h1 className="home-text02">
+          Schmecken Sie den Unterschied
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </h1>
         <a href="#getstarted" className="home-link button">
           Auf gehts!
         </a>
       </div>
       <div className="home-steps">
-        <h1 className="home-text02">Road map</h1>
-        <span className="home-text03">
+        <h1 className="home-text03">Road map</h1>
+        <span className="home-text04">
           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
           <br></br>
           <span></span>
@@ -61,10 +64,10 @@ const Home = (props) => {
               <div className="home-line1"></div>
             </div>
             <div className="home-container04">
-              <h1 className="home-text06">
+              <h1 className="home-text07">
                 <span>Ideate</span>
               </h1>
-              <span className="home-text08">
+              <span className="home-text09">
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing.</span>
                 <br></br>
                 <span></span>
@@ -82,10 +85,10 @@ const Home = (props) => {
               <div className="home-line3"></div>
             </div>
             <div className="home-container07">
-              <h1 className="home-text11">
+              <h1 className="home-text12">
                 <span>Design</span>
               </h1>
-              <span className="home-text13">
+              <span className="home-text14">
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing.</span>
                 <br></br>
                 <span></span>
@@ -104,10 +107,10 @@ const Home = (props) => {
               <div className="home-line5"></div>
             </div>
             <div className="home-container10">
-              <h1 className="home-text16">
+              <h1 className="home-text17">
                 <span>Develop</span>
               </h1>
-              <span className="home-text18">
+              <span className="home-text19">
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing.</span>
                 <br></br>
                 <span></span>
@@ -125,10 +128,10 @@ const Home = (props) => {
               <div className="home-line7"></div>
             </div>
             <div className="home-container13">
-              <h1 className="home-text21">
+              <h1 className="home-text22">
                 <span>Deploy</span>
               </h1>
-              <span className="home-text23">
+              <span className="home-text24">
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing.</span>
                 <br></br>
                 <span></span>
@@ -138,12 +141,12 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-features">
-        <h1 className="home-text26">
+        <h1 className="home-text27">
           <span>Explore our services</span>
           <br></br>
           <span></span>
         </h1>
-        <span className="home-text29">
+        <span className="home-text30">
           <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem
             lorem, malesuada in metus vitae, scelerisque accumsan ipsum. Nam
@@ -159,48 +162,48 @@ const Home = (props) => {
       <div className="home-gallery">
         <div className="home-container15">
           <div className="home-container16">
-            <h1 className="home-text32">Project Title</h1>
-            <span className="home-text33">
+            <h1 className="home-text33">Project Title</h1>
+            <span className="home-text34">
               <span>Lorem ipsum dolor sit amet</span>
             </span>
           </div>
         </div>
         <div className="home-container17">
           <div className="home-container18">
-            <h1 className="home-text35">Project Title</h1>
-            <span className="home-text36">
+            <h1 className="home-text36">Project Title</h1>
+            <span className="home-text37">
               <span>Lorem ipsum dolor sit amet</span>
             </span>
           </div>
         </div>
         <div className="home-container19">
           <div className="home-container20">
-            <h1 className="home-text38">Project Title</h1>
-            <span className="home-text39">
+            <h1 className="home-text39">Project Title</h1>
+            <span className="home-text40">
               <span>Lorem ipsum dolor sit amet</span>
             </span>
           </div>
         </div>
         <div className="home-container21">
           <div className="home-container22">
-            <h1 className="home-text41">Project Title</h1>
-            <span className="home-text42">
+            <h1 className="home-text42">Project Title</h1>
+            <span className="home-text43">
               <span>Lorem ipsum dolor sit amet</span>
             </span>
           </div>
         </div>
         <div className="home-container23">
           <div className="home-container24">
-            <h1 className="home-text44">Project Title</h1>
-            <span className="home-text45">
+            <h1 className="home-text45">Project Title</h1>
+            <span className="home-text46">
               <span>Lorem ipsum dolor sit amet</span>
             </span>
           </div>
         </div>
         <div className="home-container25">
           <div className="home-container26">
-            <h1 className="home-text47">Project Title</h1>
-            <span className="home-text48">
+            <h1 className="home-text48">Project Title</h1>
+            <span className="home-text49">
               <span>Lorem ipsum dolor sit amet</span>
             </span>
           </div>
@@ -212,9 +215,9 @@ const Home = (props) => {
             <path d="M768 770.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
             <path d="M327.196 795.328c55.31-36.15 124.080-63.636 199.788-80.414-15.054-17.784-28.708-37.622-40.492-59.020-30.414-55.234-46.492-116.058-46.492-175.894 0-86.042 0-167.31 30.6-233.762 29.706-64.504 83.128-104.496 159.222-119.488-16.914-76.48-61.94-126.75-181.822-126.75-192 0-192 128.942-192 288 0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h279.006c14.518-12.91 30.596-25.172 48.19-36.672z"></path>
           </svg>
-          <span className="home-text50">Customers</span>
-          <span className="home-text51">Lorem ipsum dolor sit amet.</span>
-          <h1 className="home-text52">
+          <span className="home-text51">Customers</span>
+          <span className="home-text52">Lorem ipsum dolor sit amet.</span>
+          <h1 className="home-text53">
             <span>50</span>
           </h1>
         </div>
@@ -222,9 +225,9 @@ const Home = (props) => {
           <svg viewBox="0 0 1024 1024" className="home-icon14">
             <path d="M598 512h234l-234-234v234zM640 214l256 256v426q0 34-26 60t-60 26h-470q-34 0-59-26t-25-60v-598q0-34 26-59t60-25h298zM682 42v86h-512v598h-84v-598q0-34 25-60t59-26h512z"></path>
           </svg>
-          <span className="home-text54">Projects</span>
-          <span className="home-text55">Lorem ipsum dolor sit amet.</span>
-          <h1 className="home-text56">
+          <span className="home-text55">Projects</span>
+          <span className="home-text56">Lorem ipsum dolor sit amet.</span>
+          <h1 className="home-text57">
             <span>300</span>
           </h1>
         </div>
@@ -232,9 +235,9 @@ const Home = (props) => {
           <svg viewBox="0 0 1024 1024" className="home-icon16">
             <path d="M810 640v-86h-84v86h84zM810 810v-84h-84v84h84zM554 298v-84h-84v84h84zM554 470v-86h-84v86h84zM554 640v-86h-84v86h84zM554 810v-84h-84v84h84zM298 470v-86h-84v86h84zM298 640v-86h-84v86h84zM298 810v-84h-84v84h84zM640 470h256v426h-768v-598h256v-84l128-128 128 128v256z"></path>
           </svg>
-          <span className="home-text58">Cities</span>
-          <span className="home-text59">Lorem ipsum dolor sit amet.</span>
-          <h1 className="home-text60">
+          <span className="home-text59">Cities</span>
+          <span className="home-text60">Lorem ipsum dolor sit amet.</span>
+          <h1 className="home-text61">
             <span>20</span>
           </h1>
         </div>
@@ -245,9 +248,9 @@ const Home = (props) => {
             <img
               alt="logo"
               src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-              className="home-image1"
+              className="home-image"
             />
-            <span className="home-text62">
+            <span className="home-text63">
               <span>
                 <span>
                   Professional website builder
@@ -272,28 +275,28 @@ const Home = (props) => {
           <div className="home-links-container">
             <div className="home-container28">
               <div className="home-product-container">
-                <span className="home-text68">Product</span>
-                <span className="home-text69">Features</span>
-                <span className="home-text70">Pricing</span>
-                <span className="home-text71">Tutorials</span>
+                <span className="home-text69">Product</span>
+                <span className="home-text70">Features</span>
+                <span className="home-text71">Pricing</span>
+                <span className="home-text72">Tutorials</span>
                 <span>Releases</span>
               </div>
               <div className="home-company-container">
-                <span className="home-text73">Company</span>
-                <span className="home-text74">About</span>
-                <span className="home-text75">Careers</span>
-                <span className="home-text76">Contact</span>
+                <span className="home-text74">Company</span>
+                <span className="home-text75">About</span>
+                <span className="home-text76">Careers</span>
+                <span className="home-text77">Contact</span>
                 <span>Blog</span>
               </div>
             </div>
             <div className="home-container29">
               <div className="home-contact">
-                <span className="home-text78">Contact Us</span>
-                <span className="home-text79">hello@teleporthq.io</span>
+                <span className="home-text79">Contact Us</span>
+                <span className="home-text80">hello@teleporthq.io</span>
                 <span>+123 (4567) 890</span>
               </div>
               <div className="home-socials">
-                <span className="home-text81">Follow Us</span>
+                <span className="home-text82">Follow Us</span>
                 <div className="home-icon-group">
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
@@ -319,9 +322,9 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-separator1"></div>
-        <span className="home-text82">
+        <span className="home-text83">
           <span>© 2021 teleportHQ, All Rights Reserved.</span>
-          <span className="home-text84"></span>
+          <span className="home-text85"></span>
           <span></span>
         </span>
       </footer>

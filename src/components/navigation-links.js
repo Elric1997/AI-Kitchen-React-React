@@ -21,7 +21,7 @@ NavigationLinks.defaultProps = {
   text3: 'Team',
   rootClassName: '',
   text2: 'Pricing',
-  text: 'About',
+  text: 'Über uns',
   text1: 'Features',
 }
 
