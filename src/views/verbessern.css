@@ -1,0 +1,37 @@
+.verbessern-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.verbessern-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+@media(max-width: 1200px) {
+  .verbessern-container1 {
+    height: 190px;
+  }
+  .verbessern-textinput {
+    width: 482px;
+    height: 56px;
+    margin-right: 0px;
+  }
+  .verbessern-button {
+    width: 139px;
+    height: 56px;
+    align-self: flex-end;
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-unit);
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

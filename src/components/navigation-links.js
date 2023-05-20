@@ -22,7 +22,7 @@ NavigationLinks.defaultProps = {
   rootClassName: '',
   text2: 'Pricing',
   text: 'Über uns',
-  text1: 'Features',
+  text1: 'Libary',
 }
 
 NavigationLinks.propTypes = {

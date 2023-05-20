@@ -1,0 +1,92 @@
+.tool-card-zutaten-blog-post-card {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tool-card-zutaten-blog-post-card:hover {
+  transform: scale(1.02);
+}
+.tool-card-zutaten-image {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 0px;
+}
+.tool-card-zutaten-container {
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.tool-card-zutaten-container1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tool-card-zutaten-text {
+  color: var(--dl-color-gray-500);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.tool-card-zutaten-text1 {
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.tool-card-zutaten-text2 {
+  color: var(--dl-color-gray-500);
+  font-size: 1.25rem;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.tool-card-zutaten-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tool-card-zutaten-profile {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+}
+.tool-card-zutaten-text3 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media(max-width: 991px) {
+  .tool-card-zutaten-blog-post-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media(max-width: 767px) {
+  .tool-card-zutaten-blog-post-card {
+    flex-direction: column;
+  }
+  .tool-card-zutaten-image {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .tool-card-zutaten-container2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .tool-card-zutaten-text3 {
+    width: auto;
+  }
+}
