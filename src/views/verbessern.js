@@ -14,12 +14,27 @@ const Verbessern = (props) => {
       </Helmet>
       <Header rootClassName="header-root-class-name"></Header>
       <div className="verbessern-container1">
+        <h1>Verbessern Sie Ihre Gerichte mit AI-Kitchen!</h1>
+        <span className="verbessern-text1">
+          Verbessern Sie Ihre Gerichte mit AI-Kitchen! 🍽️🔥 Unser AI-Tool
+          analysiert Rezepte und liefert clevere Vorschläge zur Perfektionierung
+          von Geschmack und Präsentation. 🧪💡 Erleben Sie den kulinarischen
+          Fortschritt dank KI-Technologie! 🚀🍳
+        </span>
+      </div>
+      <div className="verbessern-container2">
         <input
           type="text"
-          placeholder="placeholder"
-          className="input verbessern-textinput"
+          placeholder="Nudeln mit Soße"
+          className="verbessern-textinput input"
         />
-        <button className="button verbessern-button">Button</button>
+        <button
+          id="verbessern"
+          type="button"
+          className="verbessern-button button"
+        >
+          Abschicken
+        </button>
       </div>
     </div>
   )
